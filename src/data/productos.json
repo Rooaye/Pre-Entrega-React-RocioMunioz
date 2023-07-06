@@ -1,0 +1,51 @@
+[
+    {
+        "id": 0,
+        "nombre": "cepillo",
+        "catergoria":"Herramientas" ,
+        "precio": 3500
+    },
+    {
+        "id": 1,
+        "nombre": "Esmalte Opi",
+        "catergoria":"Uñas" ,
+        "precio": 1000
+    },
+    {
+        "id": 2,
+        "nombre": "Spray Fijador",
+        "catergoria":"Cuidado Capilar" ,
+        "precio": 2500
+    },
+    {
+        "id": 3,
+        "nombre": "Serum Moroccanoil",
+        "catergoria":"Cuidado Capilar" ,
+        "precio": 15000
+    },
+    {
+        "id": 4,
+        "nombre": "KIT-tijeras y cortadora",
+        "catergoria":"Herramientas" ,
+        "precio": 15000
+    },
+    {
+        "id": 5,
+        "nombre": "Planchita",
+        "catergoria":"Herramientas" ,
+        "precio": 49999
+    },
+    {
+        "id": 6,
+        "nombre": "Fijador",
+        "catergoria":"Cuidado Capilar" ,
+        "precio": 4000
+    },
+    {
+        "id": 7,
+        "nombre": "Alisado sin formol",
+        "catergoria":"Cuidado Capilar" ,
+        "precio": 8000
+    }
+    
+]
