@@ -1,6 +1,11 @@
-import { Item } from "../components/Item"
+import { Item } from "../components/Item";
 
-
-export const ItemList = ({products}) =>{
-    products.map(prod => <Item key={prod.id} prod={prod} />)
-}
+export const ItemList = ({ products }) => {
+  return (
+    <div>
+      {products.map((prod) => (
+        <Item key={prod.id} prod={prod} />
+      ))}
+    </div>
+  );
+};

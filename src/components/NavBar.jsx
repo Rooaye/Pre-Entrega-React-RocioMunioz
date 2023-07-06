@@ -8,7 +8,7 @@ import { CartWidget } from "./CartWidget";
 
 import data from "../data/productos.json"
 
-const categories = data.map(product => product.category)
+const categories = data.map(product => product.catergoria)
 const unique = new Set([...categories])
 
 

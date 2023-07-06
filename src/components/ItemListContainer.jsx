@@ -12,19 +12,20 @@ export const ItemListContainer = props => {
   const { id } = useParams()
 
   useEffect(() => {
-    const promesa = new Promise((resolve, rejected) => {
+    const promesa = new Promise((resolve) => {
       setTimeout(() => {
         resolve(data);
       }, 2000);
     });
     promesa.then((result) => {
       if (id) {
-        setProducts(result.filter(product => product.category === id ));
+        setProducts(result.filter(product => product.catergoria === id ));
       } else {
         setProducts(result);
       }
     });
   }, [id]);
+  
   return (
     <Container className="mt-4">
       <h1>{props.greeting}</h1>
