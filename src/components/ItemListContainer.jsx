@@ -4,7 +4,7 @@ import Container from "react-bootstrap/Container";
 
 import data from "../data/productos.json";
 import { ItemList } from "../components/ItemList";
-import { Item } from "./Item";
+import Item from "./Item";
 
 export const ItemListContainer = props => {
   const [products, setProducts] = useState([]);
@@ -19,7 +19,7 @@ export const ItemListContainer = props => {
     });
     promesa.then((result) => {
       if (id) {
-        setProducts(result.filter(product => product.catergoria === id ));
+        setProducts(result.filter(product => product.categoria === id ));
       } else {
         setProducts(result);
       }
